@@ -17,9 +17,14 @@ margin: 20px;
 color: cornflowerblue;
 text-align: center;
 font-size: 60px;}
+
 footer{
 padding: 20px;
-display: inline-block;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+flex-shrink: 60%;
+justify-content: space-evenly;
 font-family: cursive;
 color: black;
 }
@@ -27,11 +32,3 @@ color: black;
 border: solid black;
 box-sizing: border-box;
 max-width: 100%;}
-footer{
-border: 1px pink;
-padding: 20px;
-margin-bottom: 0;
-display: flex;}
-img{
-width: fit-content;
-height: fit-content;}
