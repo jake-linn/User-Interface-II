@@ -1,1 +1,37 @@
 /* Add CSS styling here */
+
+
+h1{font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 20px auto; font-size: 60px; text-align: center; color: cornflowerblue
+}
+.container header nav a{ margin: 0 10px;
+border: 1px lightcyan;
+padding: 20px;
+display: inline-block;
+color: black;
+background:cornflowerblue;
+margin-bottom: 20px;
+}
+h2{font-family: Georgia, 'Times New Roman', Times, serif;
+margin: 20px;
+color: cornflowerblue;
+text-align: center;
+font-size: 60px;}
+footer{
+padding: 20px;
+display: inline-block;
+font-family: cursive;
+color: black;
+}
+* {background-color: goldenrod;
+border: solid black;
+box-sizing: border-box;
+max-width: 100%;}
+footer{
+border: 1px pink;
+padding: 20px;
+margin-bottom: 0;
+display: flex;}
+img{
+width: fit-content;
+height: fit-content;}
