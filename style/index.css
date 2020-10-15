@@ -1,5 +1,39 @@
 /* Add CSS styling here */
 
+@media all and (max-width: 800px) {
+body{ flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+}
+nav{
+display: flex;
+flex-direction: column;
+}
+footer{
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.container{
+display: flex;
+}}
+
+@media all and (max-width: 500px){
+body{
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+nav{
+display: flex;
+flex-direction: row;
+}}
+
+
+
+
+
+
 
 h1{font-family: Georgia, 'Times New Roman', Times, serif;
 margin: 20px auto; font-size: 60px; text-align: center; color: cornflowerblue
@@ -29,6 +63,6 @@ font-family: cursive;
 color: black;
 }
 * {background-color: goldenrod;
-border: solid black;
 box-sizing: border-box;
+border: black;
 max-width: 100%;}
